@@ -1,3 +1,5 @@
+//ViewCart.js
+
 import React, { useEffect, useState } from 'react';
 import { fetchCartItems, removeFromCart, checkout } from '../api'; // Adjust the import path as necessary
 import { Modal, Button, Form } from 'react-bootstrap';
